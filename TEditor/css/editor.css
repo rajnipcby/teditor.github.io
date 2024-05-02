@@ -1,0 +1,344 @@
+﻿.navbar {
+    padding: 0px !important;
+}
+
+.modal-dialog {
+    width: 100%;
+    max-width: none !important;
+}
+
+#navbarCollapse {
+    width: 100% !important;
+}
+
+.hls-wrap-ecom {
+    position: fixed;
+    top: 50%;
+    left: 50%; /*width: 50%; max-width: 630px; */
+    min-width: 150px;
+    height: auto;
+    z-index: 5010;
+    display: none;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 5px;
+    -webkit-box-shadow: 0 4px 23px 0 rgba(0, 0, 0, 0.15), 0 2px 6px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 4px 23px 0 rgba(0, 0, 0, 0.15), 0 2px 6px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 23px 0 rgba(0, 0, 0, 0.15), 0 2px 6px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.md-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+    opacity: 0.7;
+    background-color: #303030;
+    top: 0;
+    left: 0;
+    z-index: 5009;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.rtoolbar {
+    width: 100%;
+    text-align: center
+}
+
+    .rtoolbar ul {
+        margin: 0;
+        padding: 0;
+        list-style: none
+    }
+
+    .rtoolbar li {
+        float: left;
+        width: 40px;
+        height: 40px;
+        background-color: #393939;
+        border-right: 1px solid #282828;
+        cursor: pointer
+    }
+
+        .rtoolbar li:hover {
+            background-color: #484848
+        }
+
+        .rtoolbar li:first-child {
+            border-radius: 5px 0 0 5px
+        }
+
+        .rtoolbar li:last-child {
+            border-radius: 0 5px 5px 0;
+            border-right: 0
+        }
+
+.editor-right-div {
+    position: fixed;
+    width: 280px;
+    top: 40px;
+    right: 0px;
+    height: 100%;
+}
+
+    .editor-right-div .editor-openarrow {
+        width: 40px;
+        float: left;
+        padding-top: 10px;
+        text-align: right;
+    }
+
+    .editor-right-div .editor-content {
+        width: 270px;
+        background: #363636;
+        color: #FFF;
+        padding: 5px;
+        float: right;
+        height: 100%;
+        overflow: auto;
+        direction:rtl;
+    }
+
+
+        .editor-right-div .editor-content .rtoptitle {
+            border-bottom: 1px solid #000;
+            border-top: 1px solid #000;
+            float: left;
+            font-size: 16px;
+            margin-top: 4px;
+            padding: 10px 5%;
+            text-align: left;
+            width: 90%;
+        }
+
+            .editor-right-div .editor-content .rtoptitle img {
+                margin-top: -5px;
+                vertical-align: middle;
+            }
+
+        .editor-right-div .editor-content .rtab {
+            float: left;
+            width: 45%;
+            text-align: center;
+            padding: 0px 0px 4px 0px;
+            position: absolute;
+            right: 260px;
+            border-radius: 0px 0px 0px 5px;
+            top: -6px;
+        }
+
+        .editor-right-div .editor-content .rtabhover {
+            background-color: #333;
+        }
+
+.editor-left-div {
+    position: fixed;
+    width: 530px;
+    top: 40px;
+    left: -210px;
+    height: 100%;
+}
+
+    .editor-left-div .editor-openarrow {
+        width: 40px;
+        float: left;
+        padding-top: 10px;
+        text-align: right;
+    }
+
+    .editor-left-div .editor-content {
+        width: 320px;
+        background: #FFFFFF;
+        color: #000000;
+        padding: 5px;
+        float: right;
+        height: 100%;
+        overflow: auto;
+        direction: ltr;
+    }
+
+
+        .editor-left-div .editor-content .rtoptitle {
+            border-bottom: 1px solid #000;
+            border-top: 1px solid #000;
+            float: left;
+            font-size: 16px;
+            margin-top: 4px;
+            padding: 10px 5%;
+            text-align: left;
+            width: 90%;
+        }
+
+            .editor-left-div .editor-content .rtoptitle img {
+                margin-top: -5px;
+                vertical-align: middle;
+            }
+
+        .editor-left-div .editor-content .rtab {
+            float: left;
+            width: 45%;
+            text-align: center;
+            padding: 0px 0px 4px 0px;
+            position: absolute;
+            left: 530px;
+            border-radius: 0px 0px 5px 0px;
+            top: -6px;
+            color:#ffffff;
+        }
+
+        .editor-left-div .editor-content .rtabhover {
+            background-color: #333;
+        }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    /*border-radius: 5px;*/
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: black;
+    /*border-radius: 5px;*/
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #b30000;
+    }
+
+/*colors*/
+.md-pick {
+    width: 50px;
+    height: 50px;
+    border-radius: 500px;
+    display: block;
+    float: left;
+    margin: 3px;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer
+}
+
+.rcontentbdr {
+    border-top: 3px groove #d8d8d8 !important
+}
+*:focus {
+    outline: none;
+}
+.rtemplates img{width:250px;}
+.rtemplates{
+    font-size:10px;
+}
+.inlinecontrols {
+    line-height:0;
+    z-index:5011;
+}
+.inlinecontrols img {
+    margin: 0px !important;
+    cursor: pointer;
+}
+
+.ui-wrapper .imgResizable {
+    border: 2px dashed #363636 !important;
+    outline: 0px dashed #3ff1d6 !important;
+}
+#HPageContent_dvDescription {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+/*.ui-wrapper{height:auto !important;width:auto !important;}
+z-index:5009,5010,5011*/
+.ui-resizable-sw, .ui-resizable-nw, .ui-resizable-ne, .ui-resizable-se {
+    width: 13px;
+    height: 12px;
+    background: url(/Content/TEditor/images/icons/handles2.png) no-repeat 0 0 !important;
+    /*background-image:none !important;*/
+}
+.ui-resizable-n, .ui-resizable-e, .ui-resizable-s, .ui-resizable-w {
+    width: 13px;
+    height: 12px;
+    background: url(/Content/TEditor/images/icons/handles2.png) no-repeat 0 0;
+    background-position:center;
+}
+
+.ui-resizable-sw {
+    cursor: ne-resize;
+    width: 10px !important;
+    height: 10px !important;
+    left: 0px !important;
+    bottom: 4px !important;
+}
+
+.ui-resizable-nw{
+    cursor: ne-resize;
+    width: 10px !important;
+    height: 10px !important;
+    left: 0px !important;
+    top: 0px !important;
+    /*background-position: 0 -13px;*/
+}
+
+.ui-resizable-n {
+    cursor: ne-resize;
+    width: 100% !important;
+    height: 10px !important;
+    left: 0px !important;
+    top: 0px !important;
+}
+.ui-resizable-e {
+    cursor: ne-resize;
+    width: 10px !important;
+    height: 100% !important;
+    right: 3px !important;
+    top: 0px !important;
+}
+.ui-resizable-s {
+    cursor: ne-resize;
+    width: 100% !important;
+    height: 10px !important;
+    left: 0px !important;
+    bottom: 3px !important;
+}
+.ui-resizable-w {
+    cursor: ne-resize;
+    width: 10px !important;
+    height: 100% !important;
+    left: 0px !important;
+    top: 0px !important;
+}
+
+.ui-resizable-ne {
+    /*right: 0;
+    top: 0;*/
+    /*background-position: 0 -25px;*/
+    cursor: ne-resize;
+    width: 10px !important;
+    height: 10px !important;
+    right: 3px !important;
+    top: 0px !important;
+}
+.ui-resizable-se {
+    /*right: 0;
+    top: 0;*/
+    /*background-position: 0 -25px;*/
+    cursor: ne-resize;
+    width: 10px !important;
+    height: 10px !important;
+    right: 4px !important;
+    bottom: 4px !important;
+}
