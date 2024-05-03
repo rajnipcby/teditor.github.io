@@ -21,7 +21,7 @@
     Add <script src="TEditor/scripts/jquery.js"></script> and <script src="TEditor/ClientTEditor_V3.min.js"></script> scripts in your page.
   </li>
   <li>
-    Add LoadTEditor('dvEditor', ''); end of your page. 
+    Add <script>LoadTEditor('dvEditor', '');</script> end of your page. 
   </li>
 </ul>
 Visit below link for demo.<br />
