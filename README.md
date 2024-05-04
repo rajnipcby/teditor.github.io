@@ -15,7 +15,7 @@
     Copy Editor.html out side of that folder.
   </li>
   <li>
-    Add <div id="dvEditor" style="height:650px; "></div> wherever you want to put html editor.
+    Add < div id="dvEditor" style="height:650px; "></div > wherever you want to put html editor.
   </li>
   <li>
     Add <script src="TEditor/scripts/jquery.js"></script> and <script src="TEditor/ClientTEditor_V3.min.js"></script> scripts in your page.
